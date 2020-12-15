@@ -1,0 +1,11 @@
+.panel-head {
+    float: right;
+}
+
+.panel-head a {
+    text-decoration: none;
+}
+
+.g-img {
+    background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+}
