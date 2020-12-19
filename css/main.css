@@ -1,11 +1,177 @@
+ body {
+    font-family: HelveticaNeue,Arial,'Noto Sans Myanmar UI',sans-serif;
+ }
 .panel-head {
+    position: relative;
+    margin-top: 15px;
     float: right;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 12px;
 }
 
+.btn-menu {
+    color: #202124;
+    padding-right: 50px;
+}
+
+.btn {
+    display: block;
+    margin-top: -43px;
+    margin-left: 152px;
+    margin-right: 22px;
+
+    background-color: rgba(0, 89, 255, 0.781) ;
+    border: none;
+    color: white;
+    padding: 7.3px 13px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 4px;
+}
 .panel-head a {
+    color: rgb(44, 43, 43);
     text-decoration: none;
 }
 
-.g-img {
-    background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+.panel-head a:hover {
+    text-decoration: underline;
 }
+
+.menu {
+    display: block;
+    margin-top: -20px;
+    margin-left: 109px;
+    width: 26px;
+    height: 26px;;
+}
+
+.cont {
+    margin-top: 145px;
+    position: absolute;
+    text-align: center;
+    width: 98%;
+    
+}
+
+.gg-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 98px;
+    width: 275px;
+}
+
+.s-box {
+    border-style: hidden;
+    height: 43px;
+    width: 400px;
+    margin-left: -100px;
+}
+
+.o-box:hover {
+    border: none;
+    box-shadow: 0px 1px 3px 1px rgb(218, 218, 218);
+}
+
+.s-box:focus {
+    outline: none !important;
+}
+
+.o-box {
+    width: 580px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    background: url(/iconfinder_ic_search_48px_3669253.png) no-repeat scroll 15px 13px;
+    background-size: 20px;
+}
+
+.mic {
+    margin-top: -35px;
+    margin-left: 520px;
+
+}
+
+.pic {
+    height: 27px;
+    width: 27px;
+}
+
+.sub-btn {
+    font-size: 14px;
+    color: #202124;
+    background-color:#f8f9fa;
+    border-style: hidden;
+    height: 35px;
+    width: 135px;
+    border-radius: 5px;
+}
+
+.sub {
+    margin-top: -7px;
+    word-spacing: 5px;
+}
+.sub-btn:hover {
+    border: 1px solid #dfe1e5;
+}
+
+.sub-btn:focus {
+    outline: 1px solid rgba(0, 89, 255, 0.781);
+}
+
+.footer-1 {
+    margin-top: 200px;
+    border: 1px solid #dfe1e5;
+    background-color: #f1f4f5;
+    position: absolute;
+    bottom: 5px;
+    margin-left: -20px;
+    width: 97.4%;
+    height: 2.5rem;
+    padding-left: 45px;
+}
+.footer-2 {
+    position: absolute;
+    border: 1px solid #dfe1e5;
+    background-color: #f1f4f5;
+    bottom: -34px;
+    margin-left: -20px;
+    width: 98.5%;
+    height: 2.5rem;
+    padding-left: 30px;
+    border-bottom: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    padding: 14px 19px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+      text-decoration: underline;
+  }
+
